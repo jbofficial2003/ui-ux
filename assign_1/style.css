@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0077b6;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 5px;
+}
+
+/* About Me Section */
+#about img {
+    float: right;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 3px solid #0077b6;
+}
+
+/* Education Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #0077b6;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #023047;
+    color: white;
+}
+
+/* Skills List */
+ul.skills-list {
+    list-style-type: square;
+    /* Styled bullets */
+    padding-left: 20px;
+}
+
+/* Projects Links */
+.project-link {
+    color: #0077b6;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+/* Contact links */
+.contact-links a {
+    margin-right: 15px;
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #005f73;
+    color: white;
+    font-style: italic;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
