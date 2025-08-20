@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jb Tour and Travels - Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Book Your Trip</h1>
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="packages.html">Packages</a>
+    <a href="booking.html">Booking</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+<main>
+    <form>
+        <label>Full Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Travel Dates:</label>
+        <input type="date" name="start-date" required>
+        <input type="date" name="end-date" required>
+
+        <label>Destination:</label>
+        <input type="text" name="destination" required>
+
+        <label>Package Selection:</label>
+        <select name="package">
+            <option value="bali">Bali, Indonesia</option>
+            <option value="paris">Paris, France</option>
+            <option value="dubai">Dubai, UAE</option>
+            <option value="tokyo">Tokyo, Japan</option>
+        </select>
+
+        <label>Special Requests:</label>
+        <textarea name="requests" rows="4"></textarea>
+
+        <button type="submit">Book Now</button>
+    </form>
+</main>
+<footer>
+    <p>&copy; 2025 Jb Tour and Travels</p>
+</footer>
+</body>
+</html>
