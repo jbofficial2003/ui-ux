@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array Operations</title>
+</head>
+<body>
+  <script>
+    let arr = [25, 12, 78, 5, 42];
+
+    let largest = Math.max(...arr);
+    let smallest = Math.min(...arr);
+
+    let ascending = [...arr].sort((a, b) => a - b);
+    let descending = [...arr].sort((a, b) => b - a);
+
+    document.write("Array: " + arr + "<br>");
+    document.write("Largest: " + largest + "<br>");
+    document.write("Smallest: " + smallest + "<br>");
+    document.write("Ascending: " + ascending + "<br>");
+    document.write("Descending: " + descending + "<br>");
+  </script>
+</body>
+</html>

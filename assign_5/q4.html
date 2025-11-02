@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Object</title>
+</head>
+<body>
+  <script>
+    let student = {
+      name: "John",
+      age: 20,
+      grades: "A"
+    };
+
+    student.class = "12th Grade";
+
+    student.grades = "A+";
+
+    for (let key in student) {
+      document.write(key + ": " + student[key] + "<br>");
+    }
+  </script>
+</body>
+</html>
