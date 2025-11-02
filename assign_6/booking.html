@@ -16,11 +16,13 @@
     <a href="contact.html">Contact</a>
 </nav>
 <main>
-    <form>
+    <form id="booking-form"> 
         <label>Full Name:</label>
         <input type="text" name="name" required>
 
-        <label>Travel Dates:</label>
+        <label>Guests (1-10):</label> <input type="number" name="guests" min="1" max="10" value="1" required>
+
+        <label>Travel Dates (Start/End):</label>
         <input type="date" name="start-date" required>
         <input type="date" name="end-date" required>
 
@@ -29,14 +31,18 @@
 
         <label>Package Selection:</label>
         <select name="package">
-            <option value="bali">Bali, Indonesia</option>
+            <option value="bali">Bali, Indonesia</option> 
             <option value="paris">Paris, France</option>
             <option value="dubai">Dubai, UAE</option>
             <option value="tokyo">Tokyo, Japan</option>
         </select>
+        
+        <label>Promo Code (e.g., EARLYBIRD, WELCOME50):</label> <input type="text" name="promo-code">
 
         <label>Special Requests:</label>
         <textarea name="requests" rows="4"></textarea>
+
+        <p><strong>Price Estimation:</strong> <span id="estimated-total">Select package and dates to estimate.</span></p>
 
         <button type="submit">Book Now</button>
     </form>
@@ -44,5 +50,6 @@
 <footer>
     <p>&copy; 2025 Jb Tour and Travels</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
